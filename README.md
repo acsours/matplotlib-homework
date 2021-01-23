@@ -8,7 +8,7 @@ This script reads two separate csv files containing data from a study examining 
   
        ![final_tumor_boxplot.png](final_tumor_boxplot.png?raw=true "Title")
 
-  * For mouse s=185, treated with Capomulin, as time progressed tumor volume decreased at a nearly linear rate. 
+  * For mouse s=185, treated with Capomulin, as time progressed tumor volume decreased at a nearly linear rate. When combining this observation with final average tumor volume for Capomulin, it can be inferred that this drug regimen is one of the more effective in this study for decreasing tumor volume. 
 
       ![mouse_progression.png](mouse_progression.png?raw=true "Title")
 
@@ -16,4 +16,5 @@ This script reads two separate csv files containing data from a study examining 
   There is a strong correlation beween mouse weight and average tumor volume. As mouse weight increases, tumor volume increases. This makes sense, 
   as a larger mouse would logically be able to have a larger tumor. It may be more beneficial to analysis to compare weight with final tumor volume to 
   analyze potential benefits of treatment. 
+  
       ![scatter_plot.png](scatter_plot.png?raw=true "Title")
